@@ -1,0 +1,36 @@
+.color-palette-page {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .palette-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .palette {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .palette:hover {
+    transform: scale(1.05);
+  }
+  
+  .color-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  

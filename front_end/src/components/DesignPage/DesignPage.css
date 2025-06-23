@@ -1,0 +1,90 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.design-page {
+  background: white;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.custom-button {
+  padding: 15px;
+  font-size: 1.2em;
+  width: 100%;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.custom-button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+.styled-select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.styled-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  min-height: 100px;
+}
+
+.styled-submit {
+  padding: 15px;
+  font-size: 1.2em;
+  width: 100%;
+  background: linear-gradient(45deg, #28a745, #218838);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.styled-submit:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.layout-section {
+  margin-top: 20px;
+}
+
+.palette-preview {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
