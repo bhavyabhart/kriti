@@ -29,6 +29,12 @@
 
 ---
 
+
+## 🚀 Live Demo
+
+📺 [Demo Video Link](https://drive.google.com/file/d/1WGVjuQ6qbeW_3Y8juVqNOLE5oaVKAWea/view?usp=sharing)
+
+
 ## Technologies Used
 
 - **Frontend:** React (Create React App), Tailwind CSS, DaisyUI, JavaScript, HTML/CSS  
